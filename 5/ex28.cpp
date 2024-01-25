@@ -50,36 +50,3 @@ int main(){
 
     return 0;
 }
-
-/* int reverseNumber(int numb){
-    int reversed = 0;
-    while(numb > 0 ){
-        int digit = numb % 10;
-        reversed = (reversed * 10) + digit;
-        numb /= 10;
-    }
-    return reversed;
-}
-int sumOfDigits(int num){
-    int sum = 0;
-    while(num > 0){
-        int digit = num % 10;
-        sum += digit;
-        num /= 10;
-    }
-    return sum;
-}
-void printInInterval(int f, int q){
-    for (int i = f; i < q; i++){
-        int sum = sumOfDigits(i);
-        int reverse = reverseNumber(sum);
-        if(i % reverse == 0){
-            cout << i << endl;
-        }
-    }
-}
-
- int a, b;
-    cin >> a >> b;
-    printInInterval(a,b);
- */
