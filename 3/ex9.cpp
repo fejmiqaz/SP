@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-/*  At FINKI, it's time to enroll new students. For a student to enroll, he should arrive at the faculty before 9 a.m.
+/*  At university, it's time to enroll new students. For a student to enroll, he should arrive at the faculty before 9 a.m.
     and wait in line to be served by the student service. Student service starts working from 9 o'clock,
     works 2 hours, takes a break of 30 minutes, works 1 hour, takes a break of 30 minutes, works 2 hours,
     and its working time ends.
