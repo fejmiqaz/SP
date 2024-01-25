@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// IMPORTANT !!!!
-
 /* Write a program that will print the sum of all numbers divisible by 3 in the interval [A,B), where A and B are entered
  from the keyboard. Explanation: A = 10, B = 20. The numbers that belong to the interval are 10, 11, 12, 13, ... 19.
  Among them, the numbers divisible by 3 are 12, 15, 18, so their sum is 45.*/
