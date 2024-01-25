@@ -13,6 +13,8 @@ Explanation of the test case
 The number of connectors is 2,3,4,2,4 and 7 respectively. The last sentence has the most conjunctions, so the number 7
  and the content of that sentence are printed. */
 
+/* There's also another task in this document, to print numbers in pattern n-15,n-10,n-5...n-5,n-10,n-15 using recursive function and no loops. */
+
 /*void conjunctionFound(char f[101]){
     int counter = 0;
     int counter2 = 0;
@@ -30,15 +32,9 @@ The number of connectors is 2,3,4,2,4 and 7 respectively. The last sentence has 
 }*/
 
 void recursionF(int a){
-
-    // Print the decreasing numbers
-    std::cout << a << " ";
-
-    // Recursive call with n-5
+    cout << a << " ";
     recursionF(a - 5);
-
-    // Print the increasing numbers after the recursive call
-    std::cout << a << " ";
+    cout << a << " ";
 }
 
 
