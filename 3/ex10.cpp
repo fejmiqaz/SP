@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-//   IMPORTANT !!!!!!!!!!
-
 /* Write a program to evaluate students based on their academic achievements. The program should perform the following tasks:
  1. Check the following conditions:
  - The program checks if the entered data is valid and if the student has more than 100 credits and an average grade  higher than 8.
