@@ -43,22 +43,3 @@ int main(){
 
     return 0;
 }
-
-/* int minValue(int enter){
-    int a, b, c;
-    int min = 0;
-    for(int i = 0; i < enter; i++){
-        cin >> a >> b >> c;
-        int d = abs(a-b) + (abs(b-c));
-        min = d; // set the minimum to d
-        if(d < min){
-            min = d;
-        }
-    }
-    cout << min << endl;
-    return 0;
-}
- int f;
-    cin >> f;
-    minValue(f);
- */
