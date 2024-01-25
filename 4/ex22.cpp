@@ -14,6 +14,9 @@ using namespace std;
  *
  * The less significant digits than the first seven numbers pasted give the number: 2258417*/
 
+
+/* THIS IS AN UNFINISHED TASK! */
+
 int main(){
     int number;
     cin >> number;
