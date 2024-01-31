@@ -29,7 +29,3 @@ A whole number N greater then 0 is entered from the SI followed by N pairs of na
 (Example for moving the last digit of a number on its first place: 1234 -> 4123, 98700 -> 9870). If the numbers 3456 and 6210 are entered as a pair YES should be printed since 6345 > 6210.
 ### Task 9:
 Sweet number is number that contains only even digits (0, 2, 4, 6, 8). In given range (m and n read from SI) find the smallest "sweet number". If there is no such number, print NSN.
-### Task 10:
-### Task 11:
-### Task 12:
-### Task 13:
