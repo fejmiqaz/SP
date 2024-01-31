@@ -119,4 +119,34 @@ Z-diagonal of given square matrix is composed of the elements of the first row, 
 
 From SI read the dimensions of square matrix (integer N, N > 2, N<100), and the elements of the matrix (real numbers). Store the elements of the Z-diagonal in a array, starting from the first row, continuing with the supportive diagonal, and finishing with the last row (the last element of the first row is the same element with the first element of the supportive diagonal, and the last element of the supportive diagonal is the same as the first element of the last row, and these elements should be stored only once). The resulted array should be printed on the SO. Then print the original matrix, but with the elements of Z-diagonal in reverse order.
 
+### Task 27:
+
+Sum all the elements of a matrix that are Z shaped starting from the 0th element.
+For example:
+Input: 
+5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+Output: 39
+
+
+### Task 28:
+
+Sum elements of a matrix with a N pattern.
+
+For example:
+Input:
+5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+Output: 39
+
 
