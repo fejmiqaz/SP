@@ -149,4 +149,13 @@ Input:
 
 Output: 39
 
+### Task 29:
+
+Sum elements in a matrix with Z pattern, starting at 0th position up until the end of the matrix.
+
+### Task 30:
+
+//Originally task 18
+
+Read from SI lines. Find and print the row, where the ratio of digits/letters is largest. If there are more than one such rows print the last. No row is longer than 100 characters, and if in a row there are no letters, that row is ignored.
 
