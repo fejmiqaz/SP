@@ -159,3 +159,13 @@ Sum elements in a matrix with Z pattern, starting at 0th position up until the e
 
 Read from SI lines. Find and print the row, where the ratio of digits/letters is largest. If there are more than one such rows print the last. No row is longer than 100 characters, and if in a row there are no letters, that row is ignored.
 
+### Task 31:
+
+//Originally task 1:
+From SI read N strings not longer than 80 chars. At the beginning of the program read two integers:
+
+N - number of strings you are going to read
+X - shifting size.
+Each of the read strings should be transformed in such a way that lowercase and uppercase letters (a-z, A-Z) are replaced with the same letter shifted X places afterwards in the alphabet (a-z). If you overflow the range of alphabet, continue cyclic from the beginning of the alphabet. Transformed string should be printed on SO.
+
+
