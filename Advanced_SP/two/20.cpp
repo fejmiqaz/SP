@@ -2,14 +2,15 @@
 using namespace std;
 
 int main(){
-
-    int n, m, f[100][100];
+    
+    int n, m, f[100][100], q[100][100];
     cin >> n >> m;
     for(int i = 0; i < n; i++){
         for(int j = 0; j < m; j++){
             cin >> f[i][j];
         }
     }
+    
     for(int i = 0; i < n; i++){
         for(int j = 0; j < m; j++){
             int sum = 0, cnt = 0;
@@ -30,17 +31,17 @@ int main(){
                 cnt++;
             }
             if(cnt >= 0){
-                f[i][j] = sum;
+                q[i][j] = sum;
             }
         }
     }
+    
     for(int i = 0; i < n; i++){
         for(int j = 0; j < m; j++){
-            cout << f[i][j] << " ";
+            cout << q[i][j] << " ";
         }
         cout << endl;
     }
-
-
+    
     return 0;
 }
