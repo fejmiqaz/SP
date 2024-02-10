@@ -178,5 +178,25 @@ Write a program that will read from SI array of natural numbers (not more than 1
 
 If a number is strong should be checked in a separate function, and for computing factorial a separate recursive function should be implemented and used.
 
+### Task 33:
+
+Sum elements of a matrix in a Z pattern, starting from 0th element.
+This is the task originally:
+Matrix:                First step:        Second step:        Third Step:
+4 4                    Sum these:         Sum thesE:          Sum these:
+1 2 3 4                1 2                1 2 3                1 2 3 4
+1 2 3 4                1 2                1 2 3                1 2 3 4
+1 2 3 4                                   1 2 3                1 2 3 4
+1 2 3 4                                                        1 2 3 4
+Overall you do it like this:
+1 + 2 + 1 + 2 = 6
+1 + 2 + 3 + 2 + 1 + 2 + 3 = 14
+1 + 2 + 3 + 4 + 3 + 2 + 1 + 2 + 3 + 4 = 25,
+So the output should be:
+
+6
+14
+25
+
 
 
