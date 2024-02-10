@@ -170,6 +170,8 @@ Each of the read strings should be transformed in such a way that lowercase and 
 
 ### Task 32:
 
+### Task 32:
+
 //Originally task 20:
 
 Write a program that will read from SI array of natural numbers (not more than 100). Print all the elements of the array that represent strong numbers (each in new line). One number is strong if the sum of factorials of each of his digits is equal to the number itself. Example, number 145 is strong because:
@@ -195,7 +197,7 @@ So the output should be: <br>
 <br>
 1 2 3 <br>
 1 2 3 <br>
-1 2 3 = 14 <br> 
+1 2 3 = 14 <br>
 <br>
 1 2 3 4 <br>
 1 2 3 4 <br>
@@ -207,4 +209,6 @@ Overall you do it like this: <br>
 1 + 2 + 3 + 2 + 1 + 2 + 3 = 14 <br>
 1 + 2 + 3 + 4 + 3 + 2 + 1 + 2 + 3 + 4 = 25 <br>
 
+### Task 34:
 
+Same as task 33, but the only difference here is the N pattern.
