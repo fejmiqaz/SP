@@ -11,7 +11,7 @@ int main(){
             cin >> f[i][j];
         }
     }
-    int y = 2, x = 2;
+    int x = 2;
     while(x <= n && x <= m){
         int sum1 = 0;
         for(int i = 0; i < x; i++){
@@ -27,7 +27,6 @@ int main(){
             sum1 += f[x-1][i];
         }
         x++;
-        y++;
         cout << sum1 << endl;
     }
 
