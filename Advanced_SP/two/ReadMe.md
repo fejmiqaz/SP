@@ -182,12 +182,12 @@ If a number is strong should be checked in a separate function, and for computin
 
 Sum elements of a matrix in a Z pattern, starting from 0th element.
 This is the task originally:
-Matrix:                First step:        Second step:        Third Step:
-4 4                    Sum these:         Sum thesE:          Sum these:
-|1|2|3|4|                |1|2|           |1|2|3|              |1|2|3|4|
-|1|2|3|4|                |1|2|           |1|2|3|              |1|2|3|4|
-|1|2|3|4|                                |1|2|3|              |1|2|3|4|
-|1|2|3|4|                                                     |1|2|3|4|
+Matrix:
+4 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
 Overall you do it like this:
 1 + 2 + 1 + 2 = 6
 1 + 2 + 3 + 2 + 1 + 2 + 3 = 14
