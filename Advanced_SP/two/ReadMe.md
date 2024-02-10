@@ -180,16 +180,31 @@ If a number is strong should be checked in a separate function, and for computin
 
 ### Task 33:
 
-Sum elements of a matrix in a Z pattern, starting from 0th element.
-Example you have a 4x4 matrix, with only elements 1 2 3 4, for each row and column the elements are the same.
-Overall you do it like this:
-1 + 2 + 1 + 2 = 6
-1 + 2 + 3 + 2 + 1 + 2 + 3 = 14
-1 + 2 + 3 + 4 + 3 + 2 + 1 + 2 + 3 + 4 = 25,
-So the output should be:
-6
-14
-25
-
+Sum elements of a matrix in a Z pattern, starting from 0th element.<br>
+Example you have a 4x4 matrix, with only elements 1 2 3 4, for each row and column the elements are the same. <br>
+EXAMPLE: <br>
+4 4 <br>
+1 2 3 4 <br>
+1 2 3 4 <br>
+1 2 3 4 <br>
+1 2 3 4 <br>
+<br>
+So the output should be: <br>
+1 2 <br>
+1 2 = 6 <br>
+<br>
+1 2 3 <br>
+1 2 3 <br>
+1 2 3 = 14 <br> 
+<br>
+1 2 3 4 <br>
+1 2 3 4 <br>
+1 2 3 4 <br>
+1 2 3 4 = 25 <br>
+<br>
+Overall you do it like this: <br>
+1 + 2 + 1 + 2 = 6 <br>
+1 + 2 + 3 + 2 + 1 + 2 + 3 = 14 <br>
+1 + 2 + 3 + 4 + 3 + 2 + 1 + 2 + 3 + 4 = 25 <br>
 
 
