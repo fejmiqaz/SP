@@ -14,18 +14,18 @@ int main(){
     // finish inputs
     int x = 2; // set a value for the box inside the matrix
     while(x <= n && x <= m){
-        int sum1 = 0;
+        int sum = 0;
         for(int i = 0; i < x; i++){
-            sum1 += f[i][0]; // this is the first column
+            sum += f[i][0]; // this is the first column
         }
         for(int i = 0; i < x; i++){
-            sum1 += f[i][x-1]; // this is the last column
+            sum += f[i][x-1]; // this is the last column
         }
         for(int i = 1; i < x - 1; i++){
-            sum1 += f[i][i]; // this is the main diagonal
+            sum += f[i][i]; // this is the main diagonal
         }
         x++; // increment the size of the box inside the matrix by 1, so it continues summing elements until the end of the matrix
-        cout << sum1 << endl;
+        cout << sum << endl;
     }
 
 
