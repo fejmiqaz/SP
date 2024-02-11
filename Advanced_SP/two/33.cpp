@@ -13,21 +13,21 @@ int main(){
     }
     int x = 2;
     while(x <= n && x <= m){
-        int sum1 = 0;
+        int sum = 0;
         for(int i = 0; i < x; i++){
-            sum1 += f[0][i];
+            sum += f[0][i];
         }
         int k = 1, l = x - 2;
         for(int i = 1; i < x - 1; i++){
-            sum1 += f[k][l];
+            sum += f[k][l];
             k++;
             l--;
         }
         for(int i = 0; i < x; i++){
-            sum1 += f[x-1][i];
+            sum += f[x-1][i];
         }
         x++;
-        cout << sum1 << endl;
+        cout << sum << endl;
     }
 
     return 0;
