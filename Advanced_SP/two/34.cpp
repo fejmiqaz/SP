@@ -11,20 +11,20 @@ int main(){
             cin >> f[i][j];
         }
     }
-
-    int x = 2;
+    // finish inputs
+    int x = 2; // set a value for the box inside the matrix
     while(x <= n && x <= m){
         int sum1 = 0;
         for(int i = 0; i < x; i++){
-            sum1 += f[i][0];
+            sum1 += f[i][0]; // this is the first column
         }
         for(int i = 0; i < x; i++){
-            sum1 += f[i][x-1];
+            sum1 += f[i][x-1]; // this is the last column
         }
         for(int i = 1; i < x - 1; i++){
-            sum1 += f[i][i];
+            sum1 += f[i][i]; // this is the main diagonal
         }
-        x++;
+        x++; // increment the size of the box inside the matrix by 1, so it continues summing elements until the end of the matrix
         cout << sum1 << endl;
     }
 
