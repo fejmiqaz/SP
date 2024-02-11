@@ -212,3 +212,12 @@ Overall you do it like this: <br>
 ### Task 34:
 
 Same as task 33, but the only difference here is the N pattern.
+
+### Task 35
+
+Write a program that takes an integer n as input followed by a string q. The program then reads n lines of text input and counts the occurrences of the string q within each line. For each line of text input, output the number of occurrences of q followed by the line itself.
+
+Your program should utilize a function named words that takes two parameters: a character array f representing a line of text and a character array q representing the word to search for within the line.
+
+Ensure that the program correctly handles input and output as described above.
+
