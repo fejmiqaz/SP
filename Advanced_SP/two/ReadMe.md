@@ -237,7 +237,7 @@ Output: <br>
 ### Task 37:
 
 Create a char array, and print out the letter with the most occurrence in the array, if it happens that 2 or more letters appear the same number of times, print out the array with the largest number in ASCII code. <br>
-Input: <b>
+Input: <br>
 15 <br>
 A B C D C G G A G C A G S W F <br>
 Output: <br>
