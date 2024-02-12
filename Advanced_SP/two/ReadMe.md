@@ -227,6 +227,7 @@ Ensure that the program correctly handles input and output as described above.
 Create a matrix so that the output is similar to this: <br>
 Input: <br>
 5 <br>
+Output: <br>
 1 0 0 0 0 <br>
 0 0 0 1 1 <br>
 1 1 1 0 0 <br>
@@ -235,5 +236,13 @@ Input: <br>
 
 ### Task 37:
 
-Create a char array, and print out the letter with the most occurrence in the array, if it happens that 2 or more letters appear the same number of times, print out the array with the largest number in ASCII code.
+Create a char array, and print out the letter with the most occurrence in the array, if it happens that 2 or more letters appear the same number of times, print out the array with the largest number in ASCII code. <br>
+Input: <b>
+15 <br>
+A B C D C G G A G C A G S W F <br>
+Output: <br>
+G<br>
+
+
+
 
