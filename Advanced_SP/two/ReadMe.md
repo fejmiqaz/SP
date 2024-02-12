@@ -221,3 +221,19 @@ Your program should utilize a function named words that takes two parameters: a 
 
 Ensure that the program correctly handles input and output as described above.
 
+
+### Task 36:
+
+Create a matrix so that the output is similar to this: <br>
+Input: <br>
+5 <br>
+1 0 0 0 0 <br>
+0 0 0 1 1 <br>
+1 1 1 0 0 <br>
+0 1 1 1 1 <br>
+1 1 1 1 1 <br>
+
+### Task 37:
+
+Create a char array, and print out the letter with the most occurrence in the array, if it happens that 2 or more letters appear the same number of times, print out the array with the largest number in ASCII code.
+
