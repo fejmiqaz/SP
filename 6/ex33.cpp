@@ -34,19 +34,3 @@ int main() {
 
     return 0;
 }
-
-/* int n, f[100];
-    cin >> n;
-    for (int i = 0; i < n; i++) {
-        cin >> f[i];
-    }
-    for (int i = 0; i < n; i += 2) {
-        f[i] *= 2;
-    }
-    for(int i = 1; i < n; i += 2){
-        f[i] += 2;
-    }
-    cout << "Expected output: 2 4 6 6 10 " << endl;
-    for(int i = 0; i < n; i++) {
-        cout << f[i] << " ";
-    } */
