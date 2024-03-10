@@ -25,22 +25,3 @@ int main() {
 
     return 0;
 }
-
-
-/* int x, number;
-    cin >> x;
-    while (cin >> number) {
-        int tmp1 = x, tmp2 = number, i, j;
-
-        for (i = 0; tmp1 != 0; i++) {
-            tmp1 /= 10;
-        }
-        for (j = 0; tmp2 != 0; j++) {
-            tmp2 /= 10;
-        }
-        if( i == j) {
-            cout << number << endl;
-        }
-
-    } */
-
