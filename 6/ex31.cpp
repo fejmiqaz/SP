@@ -35,22 +35,3 @@ int main(){
 
     return 0;
 }
-
-/* int n, f[100];
-    cin >> n;
-    for (int i = 0; i < n; i++) {
-        cin >> f[i];
-    }
-    int totalSum = 0;
-    for (int i = 0; i < n; i++) {
-        totalSum += f[i];
-    }
-
-    int sum = 0;
-    double percentage = 0;
-    for (int i = 3; i < n; i++) {
-        sum += f[i];
-        percentage = (float(sum) / n) * 100.0;
-    }
-    cout << "Max Sum: " << sum  << endl;
-    cout << "Percentage of Elements is: " << percentage << "%" << endl; */
