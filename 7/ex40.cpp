@@ -36,23 +36,3 @@ int main(){
 
     return 0;
 }
-
-/* for(int i = 0; i < n; i++){
-        for(int j = 0; j < n; j++){
-            if(i > j && (i+j) >= n) {
-                if (f[i][j] > 0) {
-                    f[i][j] *= -1;
-                } else if (f[i][j] < 0) {
-                    f[i][j] = abs(f[i][j]);
-                }
-            }
-
-        }
-    }
-
-    for(int i = 0; i < n;i++){
-        for(int j = 0; j < n; j++){
-            cout << f[i][j] << " ";
-        }
-        cout << endl;
-    } */
