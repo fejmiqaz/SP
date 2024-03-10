@@ -7,26 +7,6 @@ using namespace std;
  * array N is entered, then the array.
  * Note: The elements in both input arrays are sorted. The maximum length of the arrays is 100 elements.*/
 
-/* void sortedArray(int n, int m, int a[], int b[], int c[], int i = 0, int j = 0, int k = 0 ){
-    if(i >= n && j >= m){
-        return ;
-    }
-    if( i < n && j < m){
-        if(a[i] <= b[j]){
-            c[k] = a[i];
-            sortedArray(n,m,a,b,c,i+1,j,k+1);
-        }else{
-            c[k] = b[j];
-            sortedArray(n,m,a,b,c,i,j+1,k+1);
-        }
-    }else if( i < n){
-        c[k] = a[i];
-        sortedArray(n,m,a,b,c,i+1,j,k+1);
-    }else{
-        c[k] = b[j];
-        sortedArray(n,m,a,b,c,i,j+1,k+1);
-    } */
-
 void sortedArray(int n, int m, int f[100], int q[100], int e[100], int i = 0, int j = 0, int k = 0){
     if(i >= n && j >= m){
         return ;
@@ -67,23 +47,3 @@ int main(){
 
     return 0;
 }
-/* int n, m, a[100], b[100], c[100];
-
-    cin >> m;
-    for(int i = 0; i < m; i++){
-        cin >> a[i];
-    }
-
-    cin >> n;
-    for(int i = 0; i < n; i++){
-        cin >> b[i];
-    }
-
-    int size = n + m;
-
-    sortedArray(n,m,a,b,c);
-
-    for(int i = 0; i < size; i++){
-        cout << c[i] << " ";
-    }
-    cout << endl; */
