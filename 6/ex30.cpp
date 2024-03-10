@@ -37,22 +37,3 @@ int main() {
 
     return 0;
 }
-/* int n, f[100];
-    cin >> n;
-    for (int i = 0; i < n; i++) {
-        cin >> f[i];
-    }
-    //int average = 0;
-    int sum = 0;
-    for (int i = 0; i < n; i++) {
-        sum += f[i];
-    }
-    int average;
-    for (int i = 0; i < n; i++) {
-        average = sum / n;
-        if(average > f[i]){
-            cout << 0 << " ";
-        }else{
-            cout << 1 << " ";
-        }
-    } */
