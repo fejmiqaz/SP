@@ -36,20 +36,3 @@ int main(){
 
     return 0;
 }
-/*bool ZigZag(bool zigzag, int x){
-    if(x <= 9){
-        return zigzag;
-    }
-    while(x > 0){
-        int ld = x % 10;
-        int sld = (x % 100) / 10;
-        int tld = (x % 1000) / 100;
-
-        if (sld > ld && sld > tld) {
-            cout << 1 << endl;
-        }else{
-            return "0";
-        }
-        return ZigZag(true, x/10);
-    }
-}*/
