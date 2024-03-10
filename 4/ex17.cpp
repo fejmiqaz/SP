@@ -32,21 +32,3 @@ int main() {
 
     return 0;
 }
-
-/* int a, b, num = 0;
-    cin >> a >> b;
-    for (int i = a + 1; i <= b; i++) {
-        if (i % 2 == 0 && i % 7 == 0) {
-            cout << i << endl;
-            num++;
-        } else if (i % 2 != 0 && i % 3 != 0) {
-            cout << i << endl;
-            num++;
-        }
-    }
-    if (num > 0){
-        cout << ((float)num / (float)(b-a)*100.0)<< "%" << endl;
-    }else {
-        cout << 0;
-    } */
-
