@@ -66,34 +66,3 @@ int main() {
 
     return 0;
 }
-
-/* int rowSum = 0, columnSum = 0;
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n; j++){
-            rowSum += f[i][i];
-            columnSum += f[i][n - i - 1];
-        }
-    }
-    if(rowSum != columnSum) {
-        cout << "False" << endl;
-        return 0;
-    }
-
-    cout << "True" << endl;
-
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n; j++){
-            if(rowSum == columnSum){
-                f[i][j] = columnSum;
-            }
-        }
-    }
-
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            if(i == j){
-                cout << f[i][j] << " ";
-            }
-        }
-        cout << endl;
-    } */
