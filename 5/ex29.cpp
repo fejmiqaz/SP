@@ -22,7 +22,7 @@ int main(){
     int counter = 0;
     while(counter < 10){
         m++;
-        int ret= countOccurrence(m,n){
+        int ret = countOccurrence(m,n){
             if(ret == p){
                 cout << m << endl;
                 counter++;
@@ -32,14 +32,3 @@ int main(){
 
     return 0;
 }
-/* int countOccurrence(int num, int digit){
-    int counter = 0;
-    while(num > 0){
-        int digit1 = num % 10;
-        if(digit1 == digit){
-            counter++;
-        }
-        num/=10;
-    }
-    return counter;
-} */
