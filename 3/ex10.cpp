@@ -37,19 +37,3 @@ int main() {
 
     return 0;
 }
-
-/* int credits, yearOfEnrollment;
-    float avg;
-    cin >> credits >> yearOfEnrollment >> avg;
-    yearOfEnrollment = (2023 - yearOfEnrollment) * 60;
-    if (credits > 100 && avg >= 8.0){
-        float points = (credits / 240) * 10 + (avg - 8.5) * 6.5;
-        if (credits >= 240) {
-            cout << "Needs to graduate! ";
-            return 1;
-        }else if (avg >= 9) {
-            cout << "Great student! ";
-            return 1;
-        }
-        cout << "Your points are: " << points << endl;
-    } */
