@@ -1,2 +1,2 @@
 # C++ Structured Programming
-These are some C++ exercises that I have solved. FCSE 2023/24
+Multiple Structural programming exercises in C++ that I have solved. FCSE 23/24
