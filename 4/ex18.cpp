@@ -28,24 +28,3 @@ int main() {
     }
     return 0;
 }
-
-/* bool checkDigits(int num1, int num2){
-    while (num1 > 0){
-        int digit = num1 % 10;
-        num1 /= 10;
-
-        if (digit % 2 == 0 != num2 % 2 == 0){
-            return false;
-        }
-        num2/=10;
-    }
-    return true;
-} */
-
-/* int a, b;
-    cin >> a >> b;
-    if (checkDigits(a,b)){
-        cout << "DA";
-    }else {
-        cout << "NE";
-    } */
