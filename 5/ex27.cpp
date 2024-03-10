@@ -44,39 +44,3 @@ int main(){
     findLargest(f,q);
     return 0;
 }
-
-/* int reverse(int number){ // reverse number function
-    int reversed = 0; // initialize the reversed to 0
-    while(number>0){ // check if it's 0
-        int digit = number % 10; // remove the last digit
-        reversed = (reversed * 10) + digit; // add that digit to the reversed
-        number/=10; // remove that digit, and repeat the process until it's 0
-    }
-    return reversed; // return the reversed number
-}
-
-bool isPalindrome; // declare a flag
-
-int Palindrome(int num) {
-    isPalindrome = false; // set the flag to false
-    if(num == reverse(num)){ // check if the entered number it's the same when reversed with the function
-        isPalindrome = true; // set the flag to true
-    }
-    return num; // return that number, or you can return also the reversed number
-}
-
-int largestPalindrome(int start, int end){
-    int largest = 0; // intialize the largest palindrome to 0
-    for(int i = start; i <= end; i++){ // check for palindromes within given range
-        Palindrome(i); // use the function to find the palindromes
-        if(isPalindrome){ // if it's a palindrome
-            largest = i; // add it to the largest, and replace when found a bigger palindrome
-        }
-    }
-    cout << "Largest Palindrome is: " << largest << endl; // print the biggest palindrome
-    return 0;
-}
- int f,q;
-    cin >> f >> q;
-    largestPalindrome(f,q); // check using the function which has other functions to do the work
- */
