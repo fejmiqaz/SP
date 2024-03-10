@@ -50,26 +50,3 @@ int main(){
 
     return 0;
 }
-/* int numArrays;
-    cin >> numArrays;
-
-    for(int k = 0; k < numArrays;k++){
-        int f[100], n;
-        cin >> n;
-        for(int i = 0; i< n; i++){
-            cin >> f[i];
-        }
-        int mirroredNumbers = 0;
-        int temp = n;
-
-        for(int i = 0; i < temp; i++){
-            if(mirroredNum(f[i], f[temp-1])){
-                mirroredNumbers++;
-                if( i != temp-1){
-                    mirroredNumbers++;
-                }
-            }
-            temp--;
-        }
-        cout << (float(mirroredNumbers)/n)*100.0 << "%" << endl;
-    } */
