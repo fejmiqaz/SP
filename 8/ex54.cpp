@@ -9,27 +9,6 @@ using namespace std;
  * 1634, 678, 141858.
  * To win all the points from the task, it is required that the printArray function to be recursive.*/
 
-/*void printArray(int f[], int n, int i = 0){
-    if( n == 0){
-        return ;
-    }
-    cout << f[i] << " ";
-    return printArray(f,n,i+1);
-}
-
-bool isInteresting(int f[], int n, int i = 0){
-    if(i >= n - 2){
-        cout << 1;
-        return true;
-    }
-    if(f[i] % 2 == 0 && f[i + 1] % 2 != 0 && f[i + 2] % 2 == 0 ||
-    f[i] % 2 != 0  && f[i + 1 ] % 2 == 0 && f[i+2] % 2 !=0){
-        return isInteresting(f,n,i + 1);
-    }else{
-        cout << 0;
-        return false;
-    }
-}*/
 void printArray(int f[], int n, int i = 0){
     if(n == 0){
         return ;
