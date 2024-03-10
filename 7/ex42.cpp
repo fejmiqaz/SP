@@ -34,26 +34,3 @@ int main(){
 
     return 0;
 }
-
-/* int maxSum = 0;
-    int sum = 0;
-    int columnIndex = 0;
-    for(int j = 0; j < n; j++){
-        for(int i = 0; i < n; i++){
-            sum += f[i][j];
-        }
-        if(sum > maxSum){
-            maxSum=sum;
-            columnIndex = j;
-        }
-    }
-
-    for(int i = 0; i < n; i++){
-        f[i][columnIndex] += maxSum;
-    }
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n; j++){
-            cout << f[i][j] << " ";
-        }
-        cout << endl;
-    } */
